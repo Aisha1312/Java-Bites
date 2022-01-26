@@ -18,6 +18,19 @@ public class ReverseANumber {
 		c.reverse();
 		System.out.println(c);
 		
+		
+		System.out.println("******using algorithm*********");
+		
+		long l = Long.parseLong(s);
+		long rev = 0;
+		
+		while(l!=0)
+		{
+			rev = (rev*10) +(l%10);
+			l = l/10;
+		}
+		
+		System.out.println(rev);
 
 	}
 
