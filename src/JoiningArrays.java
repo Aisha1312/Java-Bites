@@ -1,8 +1,6 @@
 import java.util.Arrays;
 import java.util.stream.Stream;
 
-import com.google.common.primitives.Ints;
-
 public class JoiningArrays {
 
 	public static void main(String[] args) {
@@ -25,7 +23,7 @@ public class JoiningArrays {
 		int p1[] = {1,2,3,4};
 		int p2[] = {5,6,7,8};
 		
-		int p3[] = Ints.concat(p1,p2);
+		//int p3[] = Ints.concat(p1,p2);
 	
 
 	}
