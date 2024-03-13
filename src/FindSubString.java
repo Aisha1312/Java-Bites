@@ -41,7 +41,9 @@ public class FindSubString {
 			for(j=0;j<mainStringUpper.length();j++)
 			{
 				if(subStringUpper.charAt(i)==mainStringUpper.charAt(j))
-						break;
+						{
+							break;
+						}
 			}
 			if(j==(mainStringUpper.length()-1))
 			{
@@ -50,7 +52,6 @@ public class FindSubString {
 				System.out.println("The sub-string is present");
 			}		
 		}
-		
 	}
 	
 	public static boolean isSubstring1(String mainS, String subS)
